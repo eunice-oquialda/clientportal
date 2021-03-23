@@ -1,0 +1,86 @@
+/* Google fonts
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* Color Palette
+violet - #7400B8
+blue violet - #6930C3
+periwinkle like - 5e60ce
+blue - #5390d9
+blue green - #64DFDF
+light green - #80FFDB */
+
+/* Additional bg */
+.bg-1{
+    background-color: #7400B8 ;
+}
+
+.bg-2{
+    background-color: #6930C3 ;
+}
+
+.bg-3{
+    background-color: #5e60ce ;
+}
+
+.bg-4{
+    background-color:  #5390d9;
+}
+
+/* fonts */
+.poppins-font,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.roboto-font,
+p {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.display-4 {
+    color: #000;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url('../img/living-room.jpg');
+    
+    object-fit: cover;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment:unset;
+}
+
+
+/* list group items */
+.list-group-item {
+    background-color: #f8f9fa;
+}
+
+.list-group-item span {
+    background-color: #5e60ce;
+}
+
+
+/* links */
+a {
+    cursor: pointer;
+    z-index: 1;
+}
+#client-profile a,
+#web-dev a{
+    color:  #5e60ce ; 
+}
+
+li a{
+    color:#212429;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
+
